@@ -13,8 +13,11 @@ class LinkedList{
 
     append(value){
         const newNode={
-            value:valu
-        }z
-        
+            value:value,
+            next:null,
+        }
+        this.tail.next= newNode
+        this.tail = newNode
+        this.length++
     }
 }
